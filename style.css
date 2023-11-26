@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 60px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+#left h1{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: work sans;
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+   
+}
+#color{
+   border: 1px solid #000;
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#color1{
+    height: 15px;
+    width: 15px;
+    background-color: chocolate;
+    border-radius: 50%;
+    margin: 2px;
+}
+#color2{
+    height: 15px;
+    width: 15px;
+    background-color: burlywood;
+    border-radius: 50%;
+    
+}
+#color h5{
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#left h2{
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#left p{
+    font-size: 13px;
+    width: 70%;
+}
+
+#right{
+    height: 90%;
+    width: 33%;
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+#right-top h4{
+    font-size: 15px;
+    font-family: work sans;
+    font-weight: 500;
+}
+#right-top h5{
+    font-size: 15px;
+    font-family: work sans;
+    font-weight: 500;
+}
+#right-top i{
+    color: gold;
+}
+
+#right img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+#black-cir{
+    height: 160px;
+    width: 160px;
+    background-color: rgba(66, 66, 87, 0.954);
+    color: white;
+    position: absolute;
+    right: -15%;
+    top: 18%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#black-cir h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+#rotate{
+    position: absolute;
+    left: -10%;
+    bottom: 3%;
+    transform-origin: 0 0;
+    rotate: -90deg;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: work sans;
+}
